@@ -1,0 +1,15 @@
+{
+  "name": "omp-agent-dialogue",
+  "version": "4.4.0",
+  "private": true,
+  "description": "ARIS-based OMP plugin with Terra-designed execution waves, a Fable brain, native Opus workers and independent Astra review",
+  "homepage": "https://github.com/myunhh/dialogue-harness",
+  "repository": { "type": "git", "url": "https://github.com/myunhh/dialogue-harness.git" },
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "omp": { "extensions": ["./index.js"] },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "install:user": "node install.mjs"
+  }
+}

@@ -1,0 +1,1366 @@
+{
+  "source": {
+    "url": "https://github.com/wanshuiyin/auto-claude-code-research-in-sleep",
+    "commit": "2927b40b2ea37774de53763338c5e8f91a7601e6",
+    "committedAt": "2026-11-02T22:23:23+08:00",
+    "license": "MIT (ARIS-LICENSE)"
+  },
+  "vendoredAt": "2026-11-04",
+  "included": [
+    "skills/<name>/ (every upstream skill directory containing SKILL.md)",
+    "skills/shared-references/",
+    "tools/",
+    "templates/",
+    "LICENSE -> ARIS-LICENSE"
+  ],
+  "excluded": [
+    "skills/skills-codex",
+    "skills/skills-codex-claude-review",
+    "skills/skills-codex-gemini-review",
+    "agents/aris-fanout-leaf.md",
+    "mcp-servers/",
+    "commands/",
+    ".claude-plugin/",
+    "docs/",
+    "tests/"
+  ],
+  "skills": [
+    "ablation-planner",
+    "alphaxiv",
+    "analyze-results",
+    "arxiv",
+    "auto-paper-improvement-loop",
+    "auto-review-loop",
+    "auto-review-loop-llm",
+    "auto-review-loop-minimax",
+    "citation-audit",
+    "citation-crosscheck",
+    "claims-drafting",
+    "comm-lit-review",
+    "deepxiv",
+    "dse-loop",
+    "embodiment-description",
+    "exa-search",
+    "experiment-audit",
+    "experiment-bridge",
+    "experiment-plan",
+    "experiment-queue",
+    "feishu-notify",
+    "figure-description",
+    "figure-spec",
+    "firecrawl-search",
+    "formula-derivation",
+    "gemini-search",
+    "grant-proposal",
+    "idea-creator",
+    "idea-discovery",
+    "idea-discovery-robot",
+    "integrity-forensics",
+    "interview-cheatsheet",
+    "invention-structuring",
+    "jurisdiction-format",
+    "keenable-search",
+    "kill-argument",
+    "lean-formalize",
+    "mermaid-diagram",
+    "meta-apply",
+    "meta-optimize",
+    "monitor-experiment",
+    "novelty-check",
+    "openalex",
+    "overleaf-sync",
+    "paper-claim-audit",
+    "paper-compile",
+    "paper-figure",
+    "paper-illustration",
+    "paper-illustration-image2",
+    "paper-plan",
+    "paper-poster",
+    "paper-poster-html",
+    "paper-slides",
+    "paper-talk",
+    "paper-write",
+    "paper-writing",
+    "patent-novelty-check",
+    "patent-pipeline",
+    "patent-review",
+    "pixel-art",
+    "prior-art-search",
+    "proof-checker",
+    "proof-orchestrator",
+    "proof-writer",
+    "qzcli",
+    "rebuttal",
+    "render-html",
+    "research-implement-feature",
+    "research-lit",
+    "research-pipeline",
+    "research-refine",
+    "research-refine-pipeline",
+    "research-review",
+    "research-wiki",
+    "resubmit-pipeline",
+    "result-to-claim",
+    "run-experiment",
+    "semantic-scholar",
+    "serverless-modal",
+    "slides-polish",
+    "specification-writing",
+    "system-profile",
+    "training-check",
+    "vast-gpu",
+    "web-debug-search",
+    "wiki-enrich",
+    "writing-systems-papers"
+  ],
+  "support": [
+    "shared-references"
+  ],
+  "files": [
+    {
+      "path": "skills/ablation-planner/SKILL.md",
+      "size": 5137,
+      "executable": false
+    },
+    {
+      "path": "skills/alphaxiv/SKILL.md",
+      "size": 9161,
+      "executable": false
+    },
+    {
+      "path": "skills/analyze-results/SKILL.md",
+      "size": 1660,
+      "executable": false
+    },
+    {
+      "path": "skills/arxiv/SKILL.md",
+      "size": 9289,
+      "executable": false
+    },
+    {
+      "path": "skills/auto-paper-improvement-loop/SKILL.md",
+      "size": 42949,
+      "executable": false
+    },
+    {
+      "path": "skills/auto-review-loop/SKILL.md",
+      "size": 75537,
+      "executable": false
+    },
+    {
+      "path": "skills/auto-review-loop-llm/SKILL.md",
+      "size": 9243,
+      "executable": false
+    },
+    {
+      "path": "skills/auto-review-loop-minimax/SKILL.md",
+      "size": 13037,
+      "executable": false
+    },
+    {
+      "path": "skills/citation-audit/SKILL.md",
+      "size": 32168,
+      "executable": false
+    },
+    {
+      "path": "skills/citation-crosscheck/SKILL.md",
+      "size": 36593,
+      "executable": false
+    },
+    {
+      "path": "skills/citation-crosscheck/scripts/cx_verify.py",
+      "size": 84510,
+      "executable": false
+    },
+    {
+      "path": "skills/claims-drafting/SKILL.md",
+      "size": 11296,
+      "executable": false
+    },
+    {
+      "path": "skills/comm-lit-review/SKILL.md",
+      "size": 8683,
+      "executable": false
+    },
+    {
+      "path": "skills/deepxiv/SKILL.md",
+      "size": 8739,
+      "executable": false
+    },
+    {
+      "path": "skills/dse-loop/SKILL.md",
+      "size": 14175,
+      "executable": false
+    },
+    {
+      "path": "skills/embodiment-description/SKILL.md",
+      "size": 6732,
+      "executable": false
+    },
+    {
+      "path": "skills/exa-search/SKILL.md",
+      "size": 8672,
+      "executable": false
+    },
+    {
+      "path": "skills/experiment-audit/SKILL.md",
+      "size": 13750,
+      "executable": false
+    },
+    {
+      "path": "skills/experiment-bridge/SKILL.md",
+      "size": 19701,
+      "executable": false
+    },
+    {
+      "path": "skills/experiment-plan/SKILL.md",
+      "size": 9728,
+      "executable": false
+    },
+    {
+      "path": "skills/experiment-queue/SKILL.md",
+      "size": 20108,
+      "executable": false
+    },
+    {
+      "path": "skills/experiment-queue/scripts/build_manifest.py",
+      "size": 4562,
+      "executable": true
+    },
+    {
+      "path": "skills/experiment-queue/scripts/queue_manager.py",
+      "size": 15116,
+      "executable": true
+    },
+    {
+      "path": "skills/feishu-notify/SKILL.md",
+      "size": 6172,
+      "executable": false
+    },
+    {
+      "path": "skills/figure-description/SKILL.md",
+      "size": 5000,
+      "executable": false
+    },
+    {
+      "path": "skills/figure-spec/SKILL.md",
+      "size": 12080,
+      "executable": false
+    },
+    {
+      "path": "skills/figure-spec/scripts/figure_renderer.py",
+      "size": 29876,
+      "executable": true
+    },
+    {
+      "path": "skills/firecrawl-search/SKILL.md",
+      "size": 11000,
+      "executable": false
+    },
+    {
+      "path": "skills/formula-derivation/SKILL.md",
+      "size": 9550,
+      "executable": false
+    },
+    {
+      "path": "skills/gemini-search/SKILL.md",
+      "size": 9324,
+      "executable": false
+    },
+    {
+      "path": "skills/grant-proposal/SKILL.md",
+      "size": 36109,
+      "executable": false
+    },
+    {
+      "path": "skills/idea-creator/SKILL.md",
+      "size": 35181,
+      "executable": false
+    },
+    {
+      "path": "skills/idea-discovery/SKILL.md",
+      "size": 28404,
+      "executable": false
+    },
+    {
+      "path": "skills/idea-discovery-robot/SKILL.md",
+      "size": 15971,
+      "executable": false
+    },
+    {
+      "path": "skills/integrity-forensics/SKILL.md",
+      "size": 17170,
+      "executable": false
+    },
+    {
+      "path": "skills/interview-cheatsheet/SKILL.md",
+      "size": 14586,
+      "executable": false
+    },
+    {
+      "path": "skills/invention-structuring/SKILL.md",
+      "size": 7907,
+      "executable": false
+    },
+    {
+      "path": "skills/jurisdiction-format/SKILL.md",
+      "size": 6816,
+      "executable": false
+    },
+    {
+      "path": "skills/keenable-search/SKILL.md",
+      "size": 6230,
+      "executable": false
+    },
+    {
+      "path": "skills/kill-argument/SKILL.md",
+      "size": 26120,
+      "executable": false
+    },
+    {
+      "path": "skills/lean-formalize/SKILL.md",
+      "size": 22797,
+      "executable": false
+    },
+    {
+      "path": "skills/lean-formalize/references/adversarial-review.md",
+      "size": 14165,
+      "executable": false
+    },
+    {
+      "path": "skills/lean-formalize/references/lean-working-loop.md",
+      "size": 10625,
+      "executable": false
+    },
+    {
+      "path": "skills/lean-formalize/references/verification-and-handoff.md",
+      "size": 6332,
+      "executable": false
+    },
+    {
+      "path": "skills/mermaid-diagram/SKILL.md",
+      "size": 16323,
+      "executable": false
+    },
+    {
+      "path": "skills/meta-apply/SKILL.md",
+      "size": 8983,
+      "executable": false
+    },
+    {
+      "path": "skills/meta-optimize/SKILL.md",
+      "size": 24917,
+      "executable": false
+    },
+    {
+      "path": "skills/monitor-experiment/SKILL.md",
+      "size": 5050,
+      "executable": false
+    },
+    {
+      "path": "skills/novelty-check/SKILL.md",
+      "size": 8331,
+      "executable": false
+    },
+    {
+      "path": "skills/openalex/SKILL.md",
+      "size": 9988,
+      "executable": false
+    },
+    {
+      "path": "skills/overleaf-sync/SKILL.md",
+      "size": 11122,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-claim-audit/SKILL.md",
+      "size": 15356,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-compile/SKILL.md",
+      "size": 10070,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-figure/SKILL.md",
+      "size": 14778,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-illustration/SKILL.md",
+      "size": 33241,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-illustration-image2/SKILL.md",
+      "size": 19831,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-illustration-image2/scripts/paper_illustration_image2.py",
+      "size": 8745,
+      "executable": true
+    },
+    {
+      "path": "skills/paper-plan/SKILL.md",
+      "size": 22041,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster/SKILL.md",
+      "size": 828,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster-html/DESIGN_FINAL.md",
+      "size": 9948,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster-html/IMPLEMENTATION_CONVENTIONS.md",
+      "size": 8942,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster-html/LICENSES/posterly-MIT.txt",
+      "size": 1069,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster-html/NOTICE.md",
+      "size": 3288,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster-html/SKILL.md",
+      "size": 19486,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster-html/scripts/_posterly/__init__.py",
+      "size": 0,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster-html/scripts/_posterly/canvas.py",
+      "size": 7377,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster-html/scripts/_posterly/measure.py",
+      "size": 24692,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster-html/scripts/_posterly/polish.py",
+      "size": 21014,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster-html/scripts/_posterly/preflight.py",
+      "size": 21616,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster-html/scripts/_posterly/render.py",
+      "size": 8239,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster-html/scripts/_posterly/textutil.py",
+      "size": 616,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster-html/scripts/_posterly/verify_final.py",
+      "size": 5683,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster-html/scripts/asset_check.py",
+      "size": 36805,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster-html/scripts/extract_pdf_figures.py",
+      "size": 26003,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster-html/scripts/poster_check.py",
+      "size": 10123,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster-html/scripts/preprocess_figures.py",
+      "size": 9306,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster-html/scripts/render_preview.py",
+      "size": 7670,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster-html/scripts/run_gates.py",
+      "size": 20482,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster-html/scripts/style_check.py",
+      "size": 53183,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster-html/templates/COMPONENTS.md",
+      "size": 31274,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster-html/templates/README.md",
+      "size": 10442,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster-html/templates/landscape_4col.html",
+      "size": 41841,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster-html/templates/landscape_hero.html",
+      "size": 44680,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster-html/templates/portrait_2col.html",
+      "size": 40424,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster-html/templates/tokens/acl.json",
+      "size": 431,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster-html/templates/tokens/cvpr.json",
+      "size": 432,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster-html/templates/tokens/generic.json",
+      "size": 435,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster-html/templates/tokens/iclr.json",
+      "size": 432,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster-html/templates/tokens/icml.json",
+      "size": 432,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-poster-html/templates/tokens/neurips.json",
+      "size": 435,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-slides/SKILL.md",
+      "size": 24121,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-talk/SKILL.md",
+      "size": 21676,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-write/SKILL.md",
+      "size": 39957,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-write/templates/IEEEtran.bst",
+      "size": 57748,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-write/templates/IEEEtran.cls",
+      "size": 281957,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-write/templates/iclr2026.tex",
+      "size": 1924,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-write/templates/icml2025.tex",
+      "size": 2003,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-write/templates/ieee_conference.tex",
+      "size": 2124,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-write/templates/ieee_journal.tex",
+      "size": 2557,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-write/templates/math_commands.tex",
+      "size": 1279,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-write/templates/neurips2025.tex",
+      "size": 1829,
+      "executable": false
+    },
+    {
+      "path": "skills/paper-writing/SKILL.md",
+      "size": 52667,
+      "executable": false
+    },
+    {
+      "path": "skills/patent-novelty-check/SKILL.md",
+      "size": 6937,
+      "executable": false
+    },
+    {
+      "path": "skills/patent-pipeline/SKILL.md",
+      "size": 15255,
+      "executable": false
+    },
+    {
+      "path": "skills/patent-review/SKILL.md",
+      "size": 7904,
+      "executable": false
+    },
+    {
+      "path": "skills/pixel-art/SKILL.md",
+      "size": 5342,
+      "executable": false
+    },
+    {
+      "path": "skills/prior-art-search/SKILL.md",
+      "size": 5538,
+      "executable": false
+    },
+    {
+      "path": "skills/proof-checker/SKILL.md",
+      "size": 56673,
+      "executable": false
+    },
+    {
+      "path": "skills/proof-orchestrator/NOTICE.md",
+      "size": 1147,
+      "executable": false
+    },
+    {
+      "path": "skills/proof-orchestrator/SKILL.md",
+      "size": 18956,
+      "executable": false
+    },
+    {
+      "path": "skills/proof-orchestrator/references/audit-output-contract.md",
+      "size": 4503,
+      "executable": false
+    },
+    {
+      "path": "skills/proof-orchestrator/references/deepseek-routing.md",
+      "size": 3479,
+      "executable": false
+    },
+    {
+      "path": "skills/proof-orchestrator/references/dispatch-prompts.md",
+      "size": 7841,
+      "executable": false
+    },
+    {
+      "path": "skills/proof-orchestrator/references/notation-audit.md",
+      "size": 5327,
+      "executable": false
+    },
+    {
+      "path": "skills/proof-orchestrator/references/proof-audit-rubric.md",
+      "size": 4430,
+      "executable": false
+    },
+    {
+      "path": "skills/proof-orchestrator/references/stress-tests.md",
+      "size": 1825,
+      "executable": false
+    },
+    {
+      "path": "skills/proof-writer/SKILL.md",
+      "size": 8374,
+      "executable": false
+    },
+    {
+      "path": "skills/qzcli/SKILL.md",
+      "size": 7947,
+      "executable": false
+    },
+    {
+      "path": "skills/rebuttal/SKILL.md",
+      "size": 25728,
+      "executable": false
+    },
+    {
+      "path": "skills/render-html/SKILL.md",
+      "size": 22895,
+      "executable": false
+    },
+    {
+      "path": "skills/render-html/scripts/render_html.py",
+      "size": 40953,
+      "executable": true
+    },
+    {
+      "path": "skills/render-html/scripts/templates/academic.html",
+      "size": 21148,
+      "executable": false
+    },
+    {
+      "path": "skills/render-html/scripts/templates/dashboard.html",
+      "size": 8371,
+      "executable": false
+    },
+    {
+      "path": "skills/research-implement-feature/SKILL.md",
+      "size": 32637,
+      "executable": false
+    },
+    {
+      "path": "skills/research-lit/SKILL.md",
+      "size": 45319,
+      "executable": false
+    },
+    {
+      "path": "skills/research-pipeline/SKILL.md",
+      "size": 24299,
+      "executable": false
+    },
+    {
+      "path": "skills/research-refine/SKILL.md",
+      "size": 34664,
+      "executable": false
+    },
+    {
+      "path": "skills/research-refine-pipeline/SKILL.md",
+      "size": 7020,
+      "executable": false
+    },
+    {
+      "path": "skills/research-review/SKILL.md",
+      "size": 13815,
+      "executable": false
+    },
+    {
+      "path": "skills/research-wiki/SKILL.md",
+      "size": 20553,
+      "executable": false
+    },
+    {
+      "path": "skills/resubmit-pipeline/SKILL.md",
+      "size": 34242,
+      "executable": false
+    },
+    {
+      "path": "skills/result-to-claim/SKILL.md",
+      "size": 17854,
+      "executable": false
+    },
+    {
+      "path": "skills/run-experiment/SKILL.md",
+      "size": 12848,
+      "executable": false
+    },
+    {
+      "path": "skills/semantic-scholar/SKILL.md",
+      "size": 10943,
+      "executable": false
+    },
+    {
+      "path": "skills/serverless-modal/SKILL.md",
+      "size": 13161,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/acceptance-gate.md",
+      "size": 16967,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/assurance-contract.md",
+      "size": 13572,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/capture-antipatterns.md",
+      "size": 4516,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/citation-discipline.md",
+      "size": 20131,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/compute-env-contract.md",
+      "size": 10567,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/effort-contract.md",
+      "size": 8352,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/evidence-precheck.md",
+      "size": 3248,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/experiment-integrity.md",
+      "size": 2355,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/external-cadence.md",
+      "size": 19084,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/fan-out-pattern.md",
+      "size": 21698,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/injection-hygiene.md",
+      "size": 7468,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/integration-contract.md",
+      "size": 26858,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/output-composition.md",
+      "size": 5005,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/output-language.md",
+      "size": 2215,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/output-manifest.md",
+      "size": 2354,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/output-versioning.md",
+      "size": 4807,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/patent-format-cn.md",
+      "size": 9352,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/patent-format-ep.md",
+      "size": 6542,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/patent-format-us.md",
+      "size": 6151,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/patent-writing-principles.md",
+      "size": 9032,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/prior-art-databases.md",
+      "size": 5455,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/resumable-runs.md",
+      "size": 6694,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/review-scope-limits.md",
+      "size": 4174,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/review-tracing.md",
+      "size": 23757,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/reviewer-backends.md",
+      "size": 9712,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/reviewer-independence.md",
+      "size": 3473,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/reviewer-routing.md",
+      "size": 52492,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/skill-governance.md",
+      "size": 5710,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/taste-calibration.md",
+      "size": 4515,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/venue-checklists.md",
+      "size": 5582,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/wiki-helper-resolution.md",
+      "size": 6503,
+      "executable": false
+    },
+    {
+      "path": "skills/shared-references/writing-principles.md",
+      "size": 17539,
+      "executable": false
+    },
+    {
+      "path": "skills/slides-polish/SKILL.md",
+      "size": 29720,
+      "executable": false
+    },
+    {
+      "path": "skills/specification-writing/SKILL.md",
+      "size": 9722,
+      "executable": false
+    },
+    {
+      "path": "skills/system-profile/SKILL.md",
+      "size": 4473,
+      "executable": false
+    },
+    {
+      "path": "skills/training-check/SKILL.md",
+      "size": 6871,
+      "executable": false
+    },
+    {
+      "path": "skills/vast-gpu/SKILL.md",
+      "size": 15737,
+      "executable": false
+    },
+    {
+      "path": "skills/web-debug-search/SKILL.md",
+      "size": 15068,
+      "executable": false
+    },
+    {
+      "path": "skills/wiki-enrich/SKILL.md",
+      "size": 16628,
+      "executable": false
+    },
+    {
+      "path": "skills/writing-systems-papers/SKILL.md",
+      "size": 6903,
+      "executable": false
+    },
+    {
+      "path": "tools/arxiv_fetch.py",
+      "size": 11762,
+      "executable": false
+    },
+    {
+      "path": "tools/audit_codex_invocation.py",
+      "size": 4741,
+      "executable": false
+    },
+    {
+      "path": "tools/capture_filter.py",
+      "size": 6080,
+      "executable": false
+    },
+    {
+      "path": "tools/check_skills_inventory.py",
+      "size": 14608,
+      "executable": false
+    },
+    {
+      "path": "tools/convert_skills_to_llm_chat.py",
+      "size": 11355,
+      "executable": false
+    },
+    {
+      "path": "tools/copilot_native_evidence.py",
+      "size": 37184,
+      "executable": false
+    },
+    {
+      "path": "tools/deepxiv_fetch.py",
+      "size": 6222,
+      "executable": false
+    },
+    {
+      "path": "tools/evidence_check.py",
+      "size": 9970,
+      "executable": false
+    },
+    {
+      "path": "tools/exa_search.py",
+      "size": 14437,
+      "executable": false
+    },
+    {
+      "path": "tools/experiment_queue/README.md",
+      "size": 4238,
+      "executable": false
+    },
+    {
+      "path": "tools/experiment_queue/build_manifest.py",
+      "size": 1542,
+      "executable": true
+    },
+    {
+      "path": "tools/experiment_queue/queue_manager.py",
+      "size": 1574,
+      "executable": true
+    },
+    {
+      "path": "tools/extract_paper_style.py",
+      "size": 22693,
+      "executable": false
+    },
+    {
+      "path": "tools/figure_renderer.py",
+      "size": 2582,
+      "executable": true
+    },
+    {
+      "path": "tools/firecrawl_search.py",
+      "size": 15149,
+      "executable": false
+    },
+    {
+      "path": "tools/forensics_gate.py",
+      "size": 32705,
+      "executable": false
+    },
+    {
+      "path": "tools/generate_codex_claude_review_overrides.py",
+      "size": 18934,
+      "executable": false
+    },
+    {
+      "path": "tools/idea_discovery_gate.py",
+      "size": 10111,
+      "executable": false
+    },
+    {
+      "path": "tools/install_aris.ps1",
+      "size": 72113,
+      "executable": false
+    },
+    {
+      "path": "tools/install_aris.sh",
+      "size": 80107,
+      "executable": true
+    },
+    {
+      "path": "tools/install_aris_codex.sh",
+      "size": 42625,
+      "executable": true
+    },
+    {
+      "path": "tools/install_aris_copilot.sh",
+      "size": 43223,
+      "executable": true
+    },
+    {
+      "path": "tools/iteration_log.py",
+      "size": 5588,
+      "executable": false
+    },
+    {
+      "path": "tools/keenable_search.py",
+      "size": 11367,
+      "executable": false
+    },
+    {
+      "path": "tools/lint_skills_helpers.sh",
+      "size": 3518,
+      "executable": true
+    },
+    {
+      "path": "tools/meta_opt/check_ready.sh",
+      "size": 3449,
+      "executable": true
+    },
+    {
+      "path": "tools/meta_opt/log_event.sh",
+      "size": 3166,
+      "executable": true
+    },
+    {
+      "path": "tools/meta_opt/trigger_eval.py",
+      "size": 13384,
+      "executable": true
+    },
+    {
+      "path": "tools/meta_opt/trigger_evals.sample.json",
+      "size": 1570,
+      "executable": false
+    },
+    {
+      "path": "tools/openalex_fetch.py",
+      "size": 12106,
+      "executable": false
+    },
+    {
+      "path": "tools/overleaf_audit.sh",
+      "size": 3516,
+      "executable": true
+    },
+    {
+      "path": "tools/overleaf_setup.sh",
+      "size": 6412,
+      "executable": true
+    },
+    {
+      "path": "tools/paper_illustration_image2.py",
+      "size": 2205,
+      "executable": true
+    },
+    {
+      "path": "tools/probe_codex_invocation.py",
+      "size": 3831,
+      "executable": false
+    },
+    {
+      "path": "tools/provenance.py",
+      "size": 13754,
+      "executable": false
+    },
+    {
+      "path": "tools/requirements-codex-policy-audit.txt",
+      "size": 13,
+      "executable": false
+    },
+    {
+      "path": "tools/research_wiki.py",
+      "size": 78927,
+      "executable": false
+    },
+    {
+      "path": "tools/review_gate.py",
+      "size": 20528,
+      "executable": true
+    },
+    {
+      "path": "tools/reviewer_route.py",
+      "size": 6265,
+      "executable": false
+    },
+    {
+      "path": "tools/run_state.py",
+      "size": 18500,
+      "executable": false
+    },
+    {
+      "path": "tools/save_trace.sh",
+      "size": 26386,
+      "executable": true
+    },
+    {
+      "path": "tools/semantic_scholar_fetch.py",
+      "size": 14381,
+      "executable": false
+    },
+    {
+      "path": "tools/skill-groups.tsv",
+      "size": 9410,
+      "executable": false
+    },
+    {
+      "path": "tools/skill_picker.py",
+      "size": 8880,
+      "executable": false
+    },
+    {
+      "path": "tools/smart_update.ps1",
+      "size": 22648,
+      "executable": false
+    },
+    {
+      "path": "tools/smart_update.sh",
+      "size": 22932,
+      "executable": true
+    },
+    {
+      "path": "tools/smart_update_codex.sh",
+      "size": 15054,
+      "executable": true
+    },
+    {
+      "path": "tools/smart_update_copilot.sh",
+      "size": 23718,
+      "executable": true
+    },
+    {
+      "path": "tools/threat_scan.py",
+      "size": 12166,
+      "executable": false
+    },
+    {
+      "path": "tools/verify_paper_audits.sh",
+      "size": 21578,
+      "executable": true
+    },
+    {
+      "path": "tools/verify_papers.py",
+      "size": 29634,
+      "executable": true
+    },
+    {
+      "path": "tools/verify_wiki_coverage.sh",
+      "size": 6766,
+      "executable": true
+    },
+    {
+      "path": "tools/watchdog.py",
+      "size": 19054,
+      "executable": false
+    },
+    {
+      "path": "templates/CLAUDE_MD_TEMPLATE.md",
+      "size": 884,
+      "executable": false
+    },
+    {
+      "path": "templates/EXPERIMENT_LOG_TEMPLATE.md",
+      "size": 1670,
+      "executable": false
+    },
+    {
+      "path": "templates/EXPERIMENT_PLAN_TEMPLATE.md",
+      "size": 1926,
+      "executable": false
+    },
+    {
+      "path": "templates/EXPERIMENT_PLAN_TEMPLATE_CN.md",
+      "size": 1947,
+      "executable": false
+    },
+    {
+      "path": "templates/FINDINGS_TEMPLATE.md",
+      "size": 2579,
+      "executable": false
+    },
+    {
+      "path": "templates/IDEA_CANDIDATES_TEMPLATE.md",
+      "size": 1812,
+      "executable": false
+    },
+    {
+      "path": "templates/IDEA_CANDIDATES_TEMPLATE_CN.md",
+      "size": 1840,
+      "executable": false
+    },
+    {
+      "path": "templates/INVENTION_BRIEF_TEMPLATE.md",
+      "size": 3187,
+      "executable": false
+    },
+    {
+      "path": "templates/MANIFEST_TEMPLATE.md",
+      "size": 338,
+      "executable": false
+    },
+    {
+      "path": "templates/NARRATIVE_REPORT_TEMPLATE.md",
+      "size": 1098,
+      "executable": false
+    },
+    {
+      "path": "templates/PAPER_PLAN_TEMPLATE.md",
+      "size": 1172,
+      "executable": false
+    },
+    {
+      "path": "templates/PATENT_CLAIMS_TEMPLATE.md",
+      "size": 2733,
+      "executable": false
+    },
+    {
+      "path": "templates/PATENT_SPECIFICATION_TEMPLATE.md",
+      "size": 2130,
+      "executable": false
+    },
+    {
+      "path": "templates/README.md",
+      "size": 3064,
+      "executable": false
+    },
+    {
+      "path": "templates/RESEARCH_BRIEF_TEMPLATE.md",
+      "size": 1382,
+      "executable": false
+    },
+    {
+      "path": "templates/RESEARCH_BRIEF_TEMPLATE_CN.md",
+      "size": 1287,
+      "executable": false
+    },
+    {
+      "path": "templates/RESEARCH_CONTRACT_TEMPLATE.md",
+      "size": 2374,
+      "executable": false
+    },
+    {
+      "path": "templates/claude-hooks/corpus_write_guard.json",
+      "size": 837,
+      "executable": false
+    },
+    {
+      "path": "templates/claude-hooks/corpus_write_guard.py",
+      "size": 4307,
+      "executable": false
+    },
+    {
+      "path": "templates/claude-hooks/meta_logging.json",
+      "size": 1753,
+      "executable": false
+    },
+    {
+      "path": "templates/gitignore-trace.txt",
+      "size": 160,
+      "executable": false
+    }
+  ]
+}
